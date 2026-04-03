@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon site</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: white;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #c69c6d;
+    }
+
+    /* CAROUSEL */
+    .carousel {
+      position: relative;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      color: white;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+    }
+
+    .caption a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #c69c6d;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+
+    /* 4 COLONNES */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .box {
+      background: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">LOGO</div>
+
+    <nav>
+      <a href="#">Produits</a>
+      <a href="#">Évènements</a>
+      <a href="#">À propos</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- CAROUSEL -->
+  <div class="carousel">
+
+    <div class="slide active">
+      <img src="https://picsum.photos/1200/400?1">
+      <div class="caption">
+        <h2>Titre 1</h2>
+        <p>Description ici</p>
+        <a href="#">Découvrir</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="https://picsum.photos/1200/400?2">
+      <div class="caption">
+        <h2>Titre 2</h2>
+        <p>Description ici</p>
+        <a href="#">Voir plus</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="https://picsum.photos/1200/400?3">
+      <div class="caption">
+        <h2>Titre 3</h2>
+        <p>Description ici</p>
+        <a href="#">Explorer</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 4 COLONNES -->
+  <section class="grid">
+    <div class="box">Colonne 1</div>
+    <div class="box">Colonne 2</div>
+    <div class="box">Colonne 3</div>
+    <div class="box">Colonne 4</div>
+  </section>
+
+  <!-- SCRIPT CAROUSEL -->
+  <script>
+    let slides = document.querySelectorAll('.slide');
+    let index = 0;
+
+    setInterval(() => {
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+    }, 3000);
+  </script>
+
+</body>
+</html>
