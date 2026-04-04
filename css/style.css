@@ -183,3 +183,77 @@ nav a:hover {
   padding: 10px;
   text-align: center;
 }
+
+.logo img {
+  height: 50px;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+.event img {
+  width: 40%;
+}
+
+.event div {
+  width: 60%;
+}
+
+.event a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #c69c6d;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.beige {
+  background: #f5e6d3;
+}
+
+.white {
+  background: white;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/*A PROPOS*/
+.apropos {
+  background: url("../images/fond_a_propos.jpg");
+  background-size: cover;
+}
+
+.about {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+
+.about img {
+  width: 40%;
+}
+
+.about-text {
+  background: #f5e6d3;
+  padding: 20px;
+  width: 60%;
+}
+
+/* FOOTER*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #eee;
+}
+
+footer img {
+  height: 50px;
+}
