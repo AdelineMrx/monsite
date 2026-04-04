@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+<link rel="stylesheet" href="css/style.css">
 <head>
   <meta charset="UTF-8">
   <title>Mon site</title>
@@ -111,34 +112,37 @@
   <!-- CAROUSEL -->
   <div class="carousel">
 
-    <div class="slide active">
-      <img src="https://picsum.photos/1200/400?1">
-      <div class="caption">
-        <h2>Titre 1</h2>
-        <p>Description ici</p>
-        <a href="#">Découvrir</a>
-      </div>
+  <!-- SLIDE 1 -->
+  <div class="slide active">
+    <img src="images/carousel1.jpg">
+    <div class="caption">
+      <h2>Nos produits</h2>
+      <p>Découvrez nos créations</p>
+      <a href="produits.html">Découvrir</a>
     </div>
-
-    <div class="slide">
-      <img src="https://picsum.photos/1200/400?2">
-      <div class="caption">
-        <h2>Titre 2</h2>
-        <p>Description ici</p>
-        <a href="#">Voir plus</a>
-      </div>
-    </div>
-
-    <div class="slide">
-      <img src="https://picsum.photos/1200/400?3">
-      <div class="caption">
-        <h2>Titre 3</h2>
-        <p>Description ici</p>
-        <a href="#">Explorer</a>
-      </div>
-    </div>
-
   </div>
+
+  <!-- SLIDE 2 -->
+  <div class="slide">
+    <img src="images/carousel2.jpg">
+    <div class="caption">
+      <h2>Évènements</h2>
+      <p>Pour vos moments spéciaux</p>
+      <a href="evenements.html">Découvrir</a>
+    </div>
+  </div>
+
+  <!-- SLIDE 3 -->
+  <div class="slide">
+    <img src="images/carousel3.jpg">
+    <div class="caption">
+      <h2>Contact</h2>
+      <p>Parlons de votre projet</p>
+      <a href="contact.html">Me contacter</a>
+    </div>
+  </div>
+
+</div>
 
   <!-- 4 COLONNES -->
   <section class="grid">
@@ -148,17 +152,8 @@
     <div class="box">Colonne 4</div>
   </section>
 
-  <!-- SCRIPT CAROUSEL -->
-  <script>
-    let slides = document.querySelectorAll('.slide');
-    let index = 0;
 
-    setInterval(() => {
-      slides[index].classList.remove('active');
-      index = (index + 1) % slides.length;
-      slides[index].classList.add('active');
-    }, 3000);
-  </script>
 
+<script src="js/script.js"></script>
 </body>
 </html>
