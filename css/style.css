@@ -394,7 +394,7 @@ button {
 }
 
 .product-gallery img {
-  width: 350px;
+  width: 500px;
 }
 
 .product-gallery button {
@@ -414,15 +414,34 @@ button {
   margin: 10px 0;
 }
 
+.sizes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
 .sizes button {
-  margin: 5px;
   padding: 10px;
   cursor: pointer;
+  border: 1px solid #ccc;
+  background: white;
 }
 
 .sizes .active {
   background: #c69c6d;
   color: white;
+}
+
+/* bouton devis */
+.btn-devis {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: #c69c6d;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 .pickup {
