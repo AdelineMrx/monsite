@@ -323,3 +323,9 @@ footer img {
   padding: 8px;
   text-decoration: none;
 }
+
+h3 {
+  font-size: 40px;
+  color: #ac8252;
+  font-family: Arial;
+}
