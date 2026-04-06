@@ -276,6 +276,10 @@ footer img {
   height: 40px;
 }
 
+.feature .icon {
+  height: 80px;
+}
+
 .feature {
   text-align: center;
 }
@@ -323,12 +327,13 @@ footer img {
   padding: 8px;
   text-decoration: none;
 }
-
-h3 {
-  font-size: 25px;
+.product h3 a {
+  font-size: 40px;
   color: #ac8252;
   font-family: Arial;
+  text-decoration: none;
 }
+
 
 /* CONTACT */
 .contact-header {
