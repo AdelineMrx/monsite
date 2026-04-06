@@ -425,11 +425,11 @@ button {
   padding: 10px;
   cursor: pointer;
   border: 1px solid #ccc;
-  background: white;
+  background: rgb(245, 196, 139);
 }
 
 .sizes .active {
-  background: #c69c6d;
+  background: #e3a662;
   color: white;
 }
 
@@ -438,7 +438,7 @@ button {
   display: block;
   text-align: center;
   padding: 10px;
-  background: #c69c6d;
+  background: #ceb08f;
   color: white;
   text-decoration: none;
   margin-top: 10px;
