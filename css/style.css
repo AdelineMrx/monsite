@@ -65,7 +65,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 30px;
   background: white;
   border-bottom: 1px solid #eee;
 }
@@ -325,7 +325,52 @@ footer img {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 25px;
   color: #ac8252;
   font-family: Arial;
+}
+
+/* CONTACT */
+.contact-header {
+  background: #f5e6d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+.contact-header img {
+  height: 80px;
+}
+
+.contact-form {
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea, select {
+  padding: 10px;
+}
+
+button {
+  background: #c69c6d;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
 }
