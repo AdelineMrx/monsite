@@ -379,3 +379,7 @@ button {
   gap: 40px;
   padding: 40px;
 }
+
+.contact-info img {
+  height: 40px;
+}
