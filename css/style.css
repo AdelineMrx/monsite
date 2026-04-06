@@ -380,3 +380,53 @@ button {
 .contact-info img {
   height: 550px;
 }
+
+/* DETAIL PRODUIT*/
+.product-page {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.product-gallery {
+  display: flex;
+  align-items: center;
+}
+
+.product-gallery img {
+  width: 350px;
+}
+
+.product-gallery button {
+  font-size: 20px;
+}
+
+.product-info {
+  max-width: 400px;
+}
+
+.small-logo {
+  height: 70px;
+}
+
+.price {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.sizes button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sizes .active {
+  background: #c69c6d;
+  color: white;
+}
+
+.pickup {
+  margin-top: 20px;
+  background: #f5e6d3;
+  padding: 10px;
+}
