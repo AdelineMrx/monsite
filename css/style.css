@@ -426,11 +426,12 @@ button {
   cursor: pointer;
   border: 1px solid #ccc;
   background: rgb(245, 196, 139);
+  color:  #f5e6d3
 }
 
 .sizes .active {
-  background: #e3a662;
-  color: rgb(157, 27, 27);
+  background: #de9440;
+  color:  #f5e6d3;
 }
 
 /* bouton devis */
