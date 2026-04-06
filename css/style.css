@@ -424,14 +424,14 @@ button {
 .sizes button {
   padding: 10px;
   cursor: pointer;
-  border: 1px solid #ccc;
-  background: rgb(245, 196, 139);
-  color:  #f5e6d3
+  border: 1px solid #b98a58;
+  background: white;
+  color: #b98a58;
 }
 
 .sizes .active {
-  background: #de9440;
-  color:  #f5e6d3;
+  background: #b98a58;
+  color: white;
 }
 
 /* bouton devis */
