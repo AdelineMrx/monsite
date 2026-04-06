@@ -1,7 +1,6 @@
 let images = [
   "../images/produit1-1.jpg",
   "../images/produit1-2.jpg",
-  "../images/produit1-3.jpg"
 ];
 
 let index = 0;
