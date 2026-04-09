@@ -10,7 +10,7 @@ function showImage() {
 
 function nextImage() {
   index = (index + 1) % images.length;
-  document.getElementById("mainImage").src = images[index];
+  showImage();
 }
 
 function prevImage() {
