@@ -267,6 +267,13 @@ nav a:hover {
   width: 60%;
 }
 
+/*STYLE DESCRIPTION PRODUIT*/
+.description {
+  font-style: italic;
+  margin: 10px 0;
+  color: #555;
+}
+
 /* FOOTER*/
 footer {
   display: flex;
