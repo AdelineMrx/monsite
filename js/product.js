@@ -2,6 +2,12 @@ let images = [];
 
 let index = 0;
 
+function showImage() {
+  const img = document.getElementById("mainImage");
+  img.src = images[index];
+}
+
+
 function nextImage() {
   index = (index + 1) % images.length;
   document.getElementById("mainImage").src = images[index];
