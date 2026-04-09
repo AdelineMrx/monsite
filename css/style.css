@@ -70,6 +70,12 @@
   text-align: center;
 }
 
+.info-bar1 {
+  background: #fadab1;
+  padding: 10px;
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
