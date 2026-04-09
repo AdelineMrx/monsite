@@ -1,7 +1,4 @@
-let images = [
-  "../images/produit1-1.jpg",
-  "../images/produit1-2.jpg",
-];
+let images = [];
 
 let index = 0;
 

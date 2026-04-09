@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Produit</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <a href="../index.html">
+      <img src="../images/logo_bandeau1.png">
+    </a>
+  </div>
+  <nav>
+    <a href="../produits.html">Produits</a>
+    <a href="../evenements.html">Évènements</a>
+    <a href="../apropos.html">À propos</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="product-page">
+
+  <!-- IMAGES -->
+  <div class="product-gallery">
+    <button onclick="prevImage()">◀</button>
+    <img id="mainImage" src="../images/produit4-1.jpg">
+    <button onclick="nextImage()">▶</button>
+  </div>
+
+  <!-- INFOS -->
+  <div class="product-info">
+
+    <img src="../images/logo.png" class="small-logo">
+
+    <h3>Lemon meringue tart</h3>
+    <p class="description">
+      Un grand classique de la pâtisserie française.
+      Sur une pâte sablée croustillante, une crème au citron à la fois vive et équilibrée, surmontée d’une meringue italienne légère, délicatement dorée au chalumeau.
+    </p>
+    <p class="price" id="price">20€</p>
+
+    <div class="sizes">
+      <button class="active" onclick="changePrice(20, this)">4 parts</button>
+      <button onclick="changePrice(30, this)">6 parts</button>
+      <button onclick="changePrice(40, this)">8 parts</button>
+      <button onclick="changePrice(50, this)">10 parts</button>
+
+      <a href="../contact.html" class="btn-devis">+ de parts, devis</a>
+    </div>
+
+    <div class="pickup">
+      <p>Retrait disponible à Kibæk</p>
+      <p>Commande prête en 2 à 4 jours</p>
+      <a href="../contact.html">Adresse et informations ici</a>
+    </div>
+
+  </div>
+
+</section>
+
+<script src="../js/product.js"></script>
+
+</body>
+</html>
