@@ -14,7 +14,7 @@ function prevImage() {
 }
 
 function changePrice(price, element) {
-  document.getElementById("price").innerText = price + "DKK";
+  document.getElementById("price").innerText = price + " DKK";
 
   document.querySelectorAll(".sizes button").forEach(btn => {
     btn.classList.remove("active");
