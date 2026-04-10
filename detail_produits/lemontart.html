@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Produit</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <a href="../index.html">
+      <img src="../images/logo_bandeau1.png">
+    </a>
+  </div>
+  <nav>
+    <a href="../produits.html">Produits</a>
+    <a href="../evenements.html">Évènements</a>
+    <a href="../apropos.html">À propos</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="product-page">
+
+  <!-- IMAGES -->
+  <div class="product-gallery">
+    <button onclick="prevImage()">◀</button>
+    <img id="mainImage" src="../images/produit5-1.jpeg">
+    <button onclick="nextImage()">▶</button>
+  </div>
+
+  <!-- INFOS -->
+  <div class="product-info">
+
+    <img src="../images/logo.png" class="small-logo">
+
+    <h3>Lemon meringue tart</h3>
+    <p class="description">
+      Crisp shortcrust pastry filled with a smooth, well-balanced lemon cream, topped with a light Italian meringue, delicately torched for a golden finish.
+    </p>
+    <p class="price" id="price">210 DKK</p>
+
+    <div class="sizes">
+      <button class="active" onclick="changePrice(210, this)">6 parts</button>
+      <button onclick="changePrice(270, this)">8 parts</button>
+      <button onclick="changePrice(325, this)">10 parts</button>
+      <button onclick="changePrice(380, this)">12 parts</button>
+
+      <a href="../contact.html" class="btn-devis">+ de parts, devis</a>
+    </div>
+
+    <div class="pickup">
+      <p>Retrait disponible à Kibæk</p>
+      <p>Commande prête en 2 à 4 jours</p>
+      <a href="../contact.html">Adresse et informations ici</a>
+    </div>
+
+  </div>
+
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    images = [
+      "../images/produit4-1.jpeg",
+      "../images/produit4-2.jpeg",
+      "../images/produit4-3.jpeg",
+    ];
+  });
+</script>
+<script src="../js/product.js"></script>
+
+</body>
+</html>
