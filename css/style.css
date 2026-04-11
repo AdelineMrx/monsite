@@ -272,7 +272,7 @@ nav a:hover {
 
 .about img {
   flex: 0 0 30%;          /* ← image bien plus grande */
-  max-width: 480px;       /* ← limite élégante */
+  max-width: 380px;       /* ← limite élégante */
   aspect-ratio: 3 / 4;    /* ← ratio verrouillé */
   object-fit: cover;
 }
@@ -301,7 +301,7 @@ nav a:hover {
   font-style: normal;
   font-family: "Libre Baskerville", serif;
   padding: 20px;
-  width: 60%;
+  width: 70%;
 }
 
 .about img {
