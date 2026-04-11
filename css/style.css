@@ -271,7 +271,7 @@ nav a:hover {
 
 
 .about img {
-  flex: 0 0 40%;          /* ← image bien plus grande */
+  flex: 0 0 30%;          /* ← image bien plus grande */
   max-width: 480px;       /* ← limite élégante */
   aspect-ratio: 3 / 4;    /* ← ratio verrouillé */
   object-fit: cover;
@@ -297,6 +297,8 @@ nav a:hover {
 
 .about-text {
   background: #f5e6d3;
+  font-size: 0.9em;
+  font-style: normal;
   font-family: "Libre Baskerville", serif;
   padding: 20px;
   width: 60%;
