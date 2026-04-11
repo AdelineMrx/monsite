@@ -277,10 +277,11 @@ nav a:hover {
 }
 
 .about-text p {
-  font-size: 2em;
+  font-size: 1.6em;
   font-style: normal;
-  font-family: "Playfair Display", serif;
+  font-family: "Indie Flower", cursive;
   line-height: 1.8;
+  letter-spacing: 0.5px;
   color: #2b2b2b;
 }
 
