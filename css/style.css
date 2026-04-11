@@ -70,11 +70,6 @@
   text-align: center;
 }
 
-.info-bar1 {
-  background: #fadab1;
-  padding: 10px;
-  text-align: center;
-}
 
 body {
   margin: 0;
@@ -284,7 +279,7 @@ footer {
 }
 
 footer img {
-  height: 50px;
+  height: 80px;
 }
 
 /* FEATURES */
@@ -321,7 +316,7 @@ footer img {
 }
 
 .cta a {
-  background: #c69c6d;
+  background: #d8bb94;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
