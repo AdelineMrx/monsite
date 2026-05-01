@@ -459,15 +459,21 @@ button {
   display: flex;
   gap: 40px;
   padding: 40px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .product-gallery {
+  flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .product-gallery img {
-  width: 500px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 .product-gallery button {
@@ -475,7 +481,17 @@ button {
 }
 
 .product-info {
-  max-width: 400px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .product-page {
+    flex-direction: column;
+  }
+
+  .product-gallery img {
+    max-width: 100%;
+  }
 }
 
 .small-logo {
