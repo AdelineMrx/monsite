@@ -60,7 +60,7 @@
 }
 
 .hero-text p {
-  font-size: 26px;
+  font-size: 35px;
 }
 
 .signature-text {
@@ -102,7 +102,7 @@ header {
 
 .logo {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 nav a {
@@ -399,7 +399,7 @@ footer img {
   text-decoration: none;
 }
 .product h3 a {
-  font-size: 40px;
+  font-size: 50px;
   color: #ac8252;
   font-family: Arial;
   text-decoration: none;
@@ -502,7 +502,7 @@ button {
 }
 
 .small-logo {
-  height: 70px;
+  height: 100px;
 }
 
 .price {
