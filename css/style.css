@@ -473,6 +473,7 @@ button {
 .product-gallery img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .product-gallery button {
@@ -481,6 +482,7 @@ button {
 
 .product-info {
   flex: 1;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -498,8 +500,9 @@ button {
 }
 
 .price {
-  font-size: 20px;
-  margin: 10px 0;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
 }
 
 .sizes {
@@ -509,13 +512,19 @@ button {
   margin-top: 10px;
 }
 
+
+
 .sizes button {
-  padding: 10px;
-  cursor: pointer;
-  border: 1px solid #b98a58;
-  background: white;
-  color: #b98a58;
+  background: #f5e6d3;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
 }
+
+.sizes button:hover {
+  background: #e8d5bd;
+}
+
 
 .sizes .active {
   background: #b98a58;
