@@ -315,7 +315,7 @@ nav a:hover {
 /*STYLE DESCRIPTION PRODUIT*/
 .description {
   font-style: italic;
-  margin: 10px 0;
+  margin: 20px 0;
   color: #555;
 }
 
@@ -398,7 +398,7 @@ footer img {
   text-decoration: none;
 }
 .product h3 a {
-  font-size: 30px;
+  font-size: 40px;
   color: #ac8252;
   font-family: Arial;
   text-decoration: none;
