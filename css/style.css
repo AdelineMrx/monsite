@@ -548,3 +548,7 @@ button {
   background: #ebe4e4;
   font-style: italic;
 }
+
+* {
+  box-sizing: border-box;
+}
