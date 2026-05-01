@@ -541,3 +541,10 @@ button {
   background: #f5e6d3;
   padding: 10px;
 }
+
+.ingredients {
+  margin-top: 20px;
+  padding: 15px;
+  background: #ebe4e4;
+  font-style: italic;
+}
