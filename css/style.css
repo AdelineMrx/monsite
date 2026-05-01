@@ -77,13 +77,6 @@
   text-align: center;
 }
 
-.info-bar {
-  background: #d3ba98;
-  padding: 10px;
-  text-align: center;
-}
-
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -100,14 +93,9 @@ header {
   border-bottom: 1px solid #eee;
 }
 
-.logo {
-  font-weight: bold;
-  font-size: 15px;
-}
-
 nav a {
   margin: 0 15px;
-  font-size: 35px;
+  font-size: 25px;
   text-decoration: none;
   color: black;
   font-weight: 500;
@@ -198,16 +186,6 @@ nav a:hover {
   z-index: 2;
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.4);
-  top: 0;
-  left: 0;
-}
-
 /* BANDEAU BEIGE */
 .info-bar {
   background: #f5e6d3;
@@ -271,14 +249,6 @@ nav a:hover {
 
 
 
-.about img {
-  flex: 0 0 30%;          /* ← image bien plus grande */
-  max-width: 380px;       /* ← limite élégante */
-  aspect-ratio: 3 / 4;    /* ← ratio verrouillé */
-  object-fit: cover;
-}
-
-
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
@@ -298,7 +268,7 @@ nav a:hover {
 
 .about-text {
   background: #f5e6d3;
-  font-size: 0.9em;
+  font-size: 18 px;
   font-style: normal;
   font-family: "Libre Baskerville", serif;
   padding: 20px;
@@ -316,6 +286,7 @@ nav a:hover {
 /*STYLE DESCRIPTION PRODUIT*/
 .description {
   font-style: italic;
+  font-size: 20px;
   margin: 20px 0;
   color: #555;
 }
@@ -470,7 +441,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .product-gallery img {
@@ -540,6 +511,7 @@ button {
 .btn-devis {
   display: block;
   text-align: center;
+  font-size: 18px;
   padding: 10px;
   background: #ceb08f;
   color: white;
@@ -557,6 +529,7 @@ button {
   margin-top: 20px;
   padding: 15px;
   background: #ebe4e4;
+  font-size: 18px;
   font-style: italic;
 }
 
