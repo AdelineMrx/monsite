@@ -512,18 +512,15 @@ button {
   margin-top: 10px;
 }
 
-
-
 .sizes button {
-  background: #f5e6d3;
-  border: none;
-  padding: 12px;
-  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #b98a58;
+  background: white;
+  color: #b98a58;
 }
 
-.sizes button:hover {
-  background: #e8d5bd;
-}
+
 
 
 .sizes .active {
