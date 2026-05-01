@@ -56,15 +56,15 @@
 }
 
 .hero-text h1 {
-  font-size: 42px;
+  font-size: 50px;
 }
 
 .hero-text p {
-  font-size: 16px;
+  font-size: 26px;
 }
 
 .signature-text {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-style: italic;
     font-family: "Allura", cursive;
     line-height: 1.8;
@@ -106,7 +106,7 @@ header {
 
 nav a {
   margin: 0 15px;
-  font-size: 20px;
+  font-size: 35px;
   text-decoration: none;
   color: black;
   font-weight: 500;
@@ -459,21 +459,16 @@ button {
   display: flex;
   gap: 40px;
   padding: 40px;
-  max-width: 1200px;
-  margin: auto;
+  width: 100%;
 }
 
 .product-gallery {
   flex: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .product-gallery img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }
 
 .product-gallery button {
@@ -500,7 +495,7 @@ button {
 }
 
 .price {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
   margin: 20px 0;
 }
@@ -512,15 +507,17 @@ button {
   margin-top: 10px;
 }
 
+
 .sizes button {
-  padding: 10px;
-  cursor: pointer;
-  border: 1px solid #b98a58;
-  background: white;
-  color: #b98a58;
+  background: #f5e6d3;
+  border: none;
+  padding: 12px;
+  font-size: 26px;
 }
 
-
+.sizes button:hover {
+  background: #e8d5bd;
+}
 
 
 .sizes .active {
