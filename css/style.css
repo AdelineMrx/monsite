@@ -64,7 +64,7 @@
 }
 
 .signature-text {
-    font-size: 1.4em;
+    font-size: 2em;
     font-style: italic;
     font-family: "Allura", cursive;
     line-height: 1.8;
@@ -506,7 +506,7 @@ button {
 }
 
 .price {
-  font-size: 38px;
+  font-size: 35px;
   font-weight: bold;
   margin: 20px 0;
 }
