@@ -519,6 +519,7 @@ button {
   border: none;
   padding: 12px;
   font-size: 26px;
+  transition: 0.2s;
 }
 
 .sizes button.active {
@@ -530,11 +531,14 @@ button {
   background: #e8d5bd;
 }
 
-
-.sizes .active {
+.sizes button.active:hover {
   background: #b98a58;
   color: white;
 }
+
+
+
+
 
 /* bouton devis */
 .btn-devis {
