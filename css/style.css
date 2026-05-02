@@ -95,7 +95,7 @@ header {
 
 header nav a {
   margin: 0 15px;
-  font-size: 18px;
+  font-size: 22px;
   text-decoration: none;
   color: black;
   font-weight: 500;
@@ -507,7 +507,7 @@ button {
 
 
 .small-logo {
-  height: 100px;
+  height: 120px;
 }
 
 .price {
@@ -580,6 +580,7 @@ button {
   margin-top: 20px;
   padding: 15px;
   background: #f9f6f1;
+  color:#444;
   font-size: 18px;
   font-style: italic;
   font-family: "Libre Baskerville", serif;
