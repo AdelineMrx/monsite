@@ -293,8 +293,10 @@ nav a:hover {
 
 /*STYLE DESCRIPTION PRODUIT*/
 .description {
+  font-family: "Libre Baskerville", serif;
   font-style: italic;
   font-size: 20px;
+  line-height: 1.7;
   margin: 20px 0;
   color: #555;
 }
@@ -496,14 +498,23 @@ button {
   }
 }
 
+.product-title {
+  font-size: 48px;
+  color: #c69c6d;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 10px;
+}
+
+
 .small-logo {
   height: 100px;
 }
 
 .price {
-  font-size: 35px;
-  font-weight: bold;
-  margin: 20px 0;
+  font-size: 28px;
+  font-weight: normal;
+  color: #333;
+  margin: 15px 0;
 }
 
 .sizes {
@@ -518,7 +529,7 @@ button {
   background: #f5e6d3;
   border: none;
   padding: 12px;
-  font-size: 26px;
+  font-size: 18px;
   transition: 0.2s;
 }
 
@@ -528,16 +539,13 @@ button {
 }
 
 .sizes button:hover {
-  background: #e8d5bd;
+  background: #e2c6a3;
 }
 
 .sizes button.active:hover {
   background: #b98a58;
   color: white;
 }
-
-
-
 
 
 /* bouton devis */
@@ -550,12 +558,17 @@ button {
   color: white;
   text-decoration: none;
   margin-top: 10px;
+  font-family: "Libre Baskerville", serif;
 }
 
 .pickup {
   margin-top: 20px;
-  background: #f5e6d3;
-  padding: 10px;
+  background: #f9f6f1;
+  padding: 15px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
 }
 
 .ingredients {
