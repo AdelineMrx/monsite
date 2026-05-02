@@ -56,11 +56,11 @@
 }
 
 .hero-text h1 {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .hero-text p {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .product p {
@@ -406,7 +406,7 @@ footer img {
   text-decoration: none;
 }
 .product h3 a {
-  font-family: "Playfair Display", serif
+  font-family: "Playfair Display", serif;
   font-size: 40px;
   color: #ac8252;
   text-decoration: none;
