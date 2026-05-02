@@ -499,7 +499,7 @@ button {
 }
 
 .product-title {
-  font-size: 60px;
+  font-size: 45px;
   color: #c69c6d;
   font-family: "Playfair Display", serif;
   margin-bottom: 10px;
@@ -531,6 +531,7 @@ button {
   padding: 12px;
   font-size: 18px;
   transition: 0.2s;
+  font-family: "Libre Baskerville", serif;
 }
 
 .sizes button.active {
@@ -540,6 +541,7 @@ button {
 
 .sizes button:hover {
   background: #e2c6a3;
+  color: #b98a58
 }
 
 .sizes button.active:hover {
@@ -574,9 +576,10 @@ button {
 .ingredients {
   margin-top: 20px;
   padding: 15px;
-  background: #ebe4e4;
+  background: #f9f6f1;
   font-size: 18px;
   font-style: italic;
+  font-family: "Libre Baskerville", serif;
 }
 
 * {
