@@ -63,6 +63,12 @@
   font-size: 35px;
 }
 
+.product p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
 .signature-text {
     font-size: 2em;
     font-style: italic;
@@ -75,6 +81,12 @@
   background: #f5e6d3;
   padding: 10px;
   text-align: center;
+}
+
+.info-bar p {
+font-size: 20px;
+  font-family: "Libre Baskerville", serif;
+  line-height: 1.6;
 }
 
 body {
@@ -276,7 +288,7 @@ nav a:hover {
 
 .about-text {
   background: #f5e6d3;
-  font-size: 25 px;
+  font-size: 30 px;
   font-style: normal;
   font-family: "Libre Baskerville", serif;
   padding: 20px;
@@ -336,6 +348,21 @@ footer img {
   text-align: center;
 }
 
+.feature h3 {
+  font-size: 24px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.feature p {
+  font-size: 18px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.features h2 {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+}
+
 /* HOME PRODUCTS */
 .home-products {
   padding: 40px;
@@ -380,9 +407,9 @@ footer img {
   text-decoration: none;
 }
 .product h3 a {
-  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 40px;
   color: #ac8252;
-  font-family: Arial;
   text-decoration: none;
 }
 
