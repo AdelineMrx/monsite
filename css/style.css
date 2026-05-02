@@ -527,6 +527,7 @@ button {
 
 .sizes button {
   background: #f5e6d3;
+  color: #b98a58;
   border: none;
   padding: 12px;
   font-size: 18px;
@@ -534,16 +535,18 @@ button {
   font-family: "Libre Baskerville", serif;
 }
 
+/* bouton actif */
 .sizes button.active {
   background: #b98a58;
   color: white;
 }
 
-.sizes button:hover {
+/* hover uniquement sur boutons non actifs */
+.sizes button:not(.active):hover {
   background: #e2c6a3;
-  color: #b98a58
 }
 
+/* sécurité : actif reste actif même au hover */
 .sizes button.active:hover {
   background: #b98a58;
   color: white;
