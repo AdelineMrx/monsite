@@ -527,7 +527,6 @@ button {
 
 .sizes button {
   background: #f5e6d3;
-  color: #b98a58
   border: none;
   padding: 12px;
   font-size: 18px;
@@ -558,7 +557,7 @@ button {
   font-size: 18px;
   padding: 10px;
   background: #ceb08f;
-  color: white;
+  color: #b98a58;
   text-decoration: none;
   margin-top: 10px;
   font-family: "Libre Baskerville", serif;
