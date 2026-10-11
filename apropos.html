@@ -1,82 +1,134 @@
+```html
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="da">
 <head>
-<meta charset="UTF-8">
-<title>Om</title>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
 <body class="apropos">
 
+<!-- EN-TÊTE : conservé -->
 <header>
-  <div class="logo">
-    <a href="index.html">
-      <img src="images/logo_bandeau1.png">
-    </a>
-  </div>
-  <nav>
-    <a href="produits.html">Produkter</a>
-    <a href="evenements.html">Events</a>
-    <a href="apropos.html">Om</a>
-    <a href="contact.html">Kontakt</a>
-  </nav>
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo_bandeau1.png" alt="Logo">
+        </a>
+    </div>
+
+    <nav>
+        <a href="produits.html">Produkter</a>
+        <a href="evenements.html">Events</a>
+        <a href="apropos.html">Om</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
 </header>
 
-<section class="about">
-  <img src="images/patissier.jpg">
+<!-- CONTENU PRINCIPAL -->
+<main class="about">
 
-  <div class="about-text">
-    <p>
-      Min passion for madlavning — både det søde og det salte — har fulgt mig, så længe jeg kan huske.
-      Gennem årene har jeg udviklet en særlig forkærlighed for præcision: nøjagtige opskrifter,
-      korrekt temperaturstyring og respekt for de håndværksmæssige teknikker.<br><br>
+    <!-- PREMIÈRE SECTION : photo à gauche, texte à droite -->
+    <section class="about-row">
+        <div class="about-image">
+            <img src="images/patissier.jpg"
+                 alt="Konditoren i sit arbejde">
+        </div>
 
-      I 2024 fik jeg muligheden for at arbejde som chefkonditor for tre franske pâtisserier i Brisbane,
-      Australien. Her forfinede jeg mit håndværk omkring de store klassikere inden for fransk konditori.
-      Samtidig arbejdede jeg med dessertudvikling til en restaurant, hvilket gav mig værdifuld erfaring
-      og styrkede min kreative tilgang.<br><br>
+        <div class="about-text">
+            <p>
+                Min passion for madlavning — både det søde og det salte —
+                har fulgt mig, så længe jeg kan huske.
 
-      Jeg lægger stor vægt på det visuelle udtryk og stræber efter elegante kreationer,
-      men smagen vil altid komme først. Mit mål er at tilbyde konditorkager med balance,
-      fine teksturer og nye smagskombinationer — kreationer, der taler til både øjet og ganen.
-    </p>
-  </div>
-</section>
+                Gennem årene har jeg udviklet en særlig forkærlighed for
+                præcision: nøjagtige opskrifter, korrekt temperaturstyring
+                og respekt for de håndværksmæssige teknikker.
+            </p>
 
-<!-- FOOTER -->
+            <p>
+                I 2024 fik jeg muligheden for at arbejde som chefkonditor
+                for tre franske pâtisserier i Brisbane, Australien.
+                Her forfinede jeg mit håndværk omkring de store klassikere
+                inden for fransk konditori.
+
+                Samtidig arbejdede jeg med dessertudvikling til en
+                restaurant, hvilket gav mig værdifuld erfaring og styrkede
+                min kreative tilgang.
+            </p>
+        </div>
+    </section>
+
+    <!-- ANDEN SECTION : texte à gauche, photo à droite -->
+    <section class="about-row about-row-reverse">
+
+        <div class="about-image">
+            <img src="images/patissier1.jpg"
+                 alt="Konditorens håndværk">
+        </div>
+
+        <div class="about-text">
+            <p>
+                I 2026 åbner jeg mit eget konditori hjemmefra i Kibæk, hvor alle mine kreationer laves på bestilling.  
+Uanset om det er til fødselsdage, bryllupper, firmaarrangementer eller familiemiddage, tilbyder jeg delikate kager til enhver anledning.  
+En invitation til at opleve og dele den franske konditorkunst og dens søde fristelser.
+            </p>
+            <p>
+                Jeg lægger stor vægt på det visuelle udtryk og stræber
+                efter elegante kreationer, men smagen vil altid komme først.
+                Mit mål er at tilbyde konditorkager med balance, fine
+                teksturer og nye smagskombinationer — kreationer, der taler
+                til både øjet og ganen.
+            </p>
+        </div>
+
+    </section>
+
+</main>
+
+<!-- PIED DE PAGE : conservé -->
 <footer>
-  <img src="images/logo_bandeau1.png">
+    <img src="images/logo_bandeau1.png" alt="Logo">
 
-  <div>
-    <nav>
-      <a href="produits.html">Produkter</a><br><br>
-      <a href="evenements.html">Events</a><br><br>
-      <a href="apropos.html">Om</a><br><br>
-      <a href="contact.html">Kontakt</a>
-    </nav>
-  </div>
+    <div>
+        <nav>
+            <a href="produits.html">Produkter</a><br><br>
+            <a href="evenements.html">Events</a><br><br>
+            <a href="apropos.html">Om</a><br><br>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+    </div>
 
-  <div>
-    <p>Kontakt konditoren: frankrigijylland@outlook.com</p>
-    <a href="https://www.instagram.com/frankrigijylland/" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: #000;">
-        <img src="images/insta.png" 
-             alt="Instagram" 
-             style="width: 30px; height:30px;">
-        <span>Instagram</span>
-    </a><br><br>
-     <a href="https://www.findsmiley.dk/Sider/Search.aspx?k=frankrig%20i%20jylland" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: #000;">
-        <img src="images/smiley.png" 
-             alt="Instagram" 
-             style="width: 60px; height:60px;">
-    </a>
-  </div>
+    <div>
+        <p>Kontakt konditoren: frankrigijylland@outlook.com</p>
 
-  <div>
-    <a href="CGV.html">Handelsbetingelser</a><br><br>
-    <a href="mentionslegales.html">Juridiske oplysninger</a>
-  </div>
+        <a href="https://www.instagram.com/frankrigijylland/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="footer-social">
+            <img src="images/insta.png" alt="Instagram">
+            <span>Instagram</span>
+        </a>
+
+        <br><br>
+
+        <a href="https://www.findsmiley.dk/Sider/Search.aspx?k=frankrig%20i%20jylland"
+           target="_blank"
+           rel="noopener noreferrer">
+            <img src="images/smiley.png"
+                 alt="Findsmiley"
+                 class="smiley-logo">
+        </a>
+    </div>
+
+    <div>
+        <a href="CGV.html">Handelsbetingelser</a><br><br>
+        <a href="mentionslegales.html">Juridiske oplysninger</a>
+    </div>
 </footer>
 
 </body>
 </html>
+```
