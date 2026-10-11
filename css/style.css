@@ -615,3 +615,133 @@ button {
 * {
   box-sizing: border-box;
 }
+/* ==============================
+   PAGE À PROPOS
+   ============================== */
+
+.apropos .about {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+/* Chaque section contient une photo et un texte */
+.apropos .about-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 60px;
+}
+
+/* Photo à gauche pour la première section */
+.apropos .about-row:first-child .about-image {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Texte à droite pour la première section */
+.apropos .about-row:first-child .about-text {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* Deuxième section : texte à gauche, photo à droite */
+.apropos .about-row-reverse .about-text {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.apropos .about-row-reverse .about-image {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* Images portrait : taille automatique */
+.apropos .about-image {
+    width: 100%;
+    min-width: 0;
+}
+
+.apropos .about-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Textes */
+.apropos .about-text {
+    min-width: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    line-height: 1.9;
+    color: #222;
+}
+
+.apropos .about-text p {
+    margin: 0 0 20px;
+}
+
+/* Liens et images du pied de page */
+.apropos footer .footer-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #000;
+}
+
+.apropos footer .footer-social img {
+    width: 30px;
+    height: 30px;
+}
+
+.apropos footer .smiley-logo {
+    width: 60px;
+    height: 60px;
+}
+
+/* ==============================
+   TABLETTES ET TÉLÉPHONES
+   ============================== */
+
+@media (max-width: 768px) {
+    .apropos .about {
+        width: 90%;
+        margin: 35px auto;
+        gap: 45px;
+    }
+
+    .apropos .about-row {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 25px;
+    }
+
+    /* Première section : photo puis texte */
+    .apropos .about-row:first-child .about-image,
+    .apropos .about-row:first-child .about-text {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    /* Deuxième section : photo puis texte sur mobile */
+    .apropos .about-row-reverse .about-image,
+    .apropos .about-row-reverse .about-text {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .apropos .about-text {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .apropos .about-image img {
+        width: 100%;
+        height: auto;
+    }
+}
